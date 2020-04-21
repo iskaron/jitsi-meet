@@ -4,7 +4,9 @@ body.welcome-page {
 }
 
 .welcome {
-    background-image: $welcomePageBackground;
+    background-image: url(https://cativa.net/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     font-family: $welcomePageFontFamily;
@@ -37,12 +39,17 @@ body.welcome-page {
         }
 
         .header-text-title {
-            color: $welcomePageTitleColor;
+            color: #007700;
+	    font-family: 'Vollkorn';
             font-size: $welcomePageHeaderTextTitleFontSize;
-            font-weight: $welcomePageHeaderTextTitleFontWeight;
+            font-weight: bold;
             line-height: $welcomePageHeaderTextTitleLineHeight;
             margin-bottom: $welcomePageHeaderTextTitleMarginBottom;
             opacity: $welcomePageHeaderTextTitleOpacity;
+	    text-shadow: rgba(0,0,0,0.8) 0.1em 0.1em 0.1em;
+	    .dot {
+		color: #770000;
+	    }
         }
 
         .header-text-description {
@@ -113,7 +120,7 @@ body.welcome-page {
             text-align: left;
             min-height: 354px;
             width: 710px;
-            background: #75A7E7;
+            background-color: #d1dbe8bd;
             display: $welcomePageTabContainerDisplay;
             flex-direction: column;
 
