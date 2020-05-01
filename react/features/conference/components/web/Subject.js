@@ -50,6 +50,7 @@ class Subject extends Component<Props> {
 
         return (
             <div className = { `subject ${_visible ? 'visible' : ''}` }>
+                <div className = 'cativaLogo'>cativa<span className = 'dot'>.</span>net</div>
                 <span className = 'subject-text'>{ _subject }</span>
                 { _showParticipantCount && <ParticipantsCount /> }
                 <ConferenceTimer />

@@ -185,7 +185,7 @@ class WelcomePage extends AbstractWelcomePage {
                     <div className = 'header-image' />
                     <div className = 'header-text'>
                         <h1 className = 'header-text-title'>
-                            cativa<span className = 'dot'>.</span>net
+                            <span className = 'cativaLogo'>cativa<span className = 'dot'>.</span>net</span>
                         </h1>
                     </div>
                     <div id = 'enter_room'>

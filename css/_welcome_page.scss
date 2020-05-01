@@ -40,16 +40,11 @@ body.welcome-page {
 
         .header-text-title {
             color: #007700;
-	    font-family: 'Vollkorn';
             font-size: $welcomePageHeaderTextTitleFontSize;
             font-weight: bold;
             line-height: $welcomePageHeaderTextTitleLineHeight;
             margin-bottom: $welcomePageHeaderTextTitleMarginBottom;
             opacity: $welcomePageHeaderTextTitleOpacity;
-	    text-shadow: rgba(0,0,0,0.8) 0.1em 0.1em 0.1em;
-	    .dot {
-		color: #770000;
-	    }
         }
 
         .header-text-description {
